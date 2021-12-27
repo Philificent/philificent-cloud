@@ -6,8 +6,13 @@ import { Helmet } from "react-helmet";
 const IndexPage = () => {
   return (
     <Layout>
+      {/* Need to move this into a separate head.js file... for simplicity of the font etc */}
       <Helmet>
         <title>Home | Philificent.cloud</title>
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+        </style>
       </Helmet>
       <header>header</header>
       <main>

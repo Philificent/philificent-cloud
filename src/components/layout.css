@@ -1,7 +1,14 @@
 html,
 body {
-  font-family: helvetica;
+  font-family: "Poppins", "Roboto", helvetica, ariel, sans-serif;
   padding: 0;
-  background: #c7c7c7;
-  color: #222222;
+  background: #c5c5c5;
+  color: #101010;
+}
+#___gatsby {
+  border: 1px solid #101010;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  min-height: calc(100vh - 2.5rem);
+  background: #dbdbdb;
 }
